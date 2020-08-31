@@ -80,6 +80,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     speakButton.setTitle(" 修但幾咧", for: UIControl.State.normal)
                     speakButton.setImage(UIImage(systemName: "pause.fill"), for: UIControl.State.normal)
             }
+            else{
+                speakButton.setTitle("  說出口", for: UIControl.State.normal)
+                speakButton.setImage(UIImage(systemName: "play.fill"), for: UIControl.State.normal)
+            }
         }
     }
     
